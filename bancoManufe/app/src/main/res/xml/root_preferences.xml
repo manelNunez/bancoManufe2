@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:title="Multimedia"
+        app:icon="@drawable/musica"
+        />
+
+    <SwitchPreferenceCompat
+        app:key="reproducirMusica"
+        app:summaryOff="No escuchar la música mientras se ejecuta la aplicación"
+        app:summaryOn="Escuchar la música mientras se ejecuta la aplicación"
+        app:title="Música" />
+    <SwitchPreferenceCompat
+        app:key="reproducirMusica"
+        app:summaryOff="No reproducir un video mientras se ejecuta la aplicación"
+        app:summaryOn="Reproducir un video mientras se ejecuta la aplicación"
+        app:title="Video de Bienvenida" />
+
+    <PreferenceCategory
+        app:title="Lenguaje"
+        app:icon="@drawable/idioma"
+        />
+    <ListPreference
+        app:key="idiomaSeleccionado"
+        app:title="Lenguaje de la aplicación"
+        app:summary="Elige el idioma de la aplicación"
+        app:entries="@array/language_options"
+        app:entryValues="@array/language_values"
+        app:defaultValue="es" />
+
+    <PreferenceCategory
+        app:title="Datos"
+        app:icon="@drawable/datos" />
+
+    <ListPreference
+        app:key="origenDatos"
+        app:title="Origen de datos"
+        app:summary="Selecciona el origen de datos actual"
+        app:entries="@array/data_source_options"
+        app:entryValues="@array/data_source_values"
+        app:defaultValue="local_database" />
+</PreferenceScreen>

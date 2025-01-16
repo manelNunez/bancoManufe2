@@ -1,0 +1,198 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".activities.TransferActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/transferenciass"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cuenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        android:layout_marginTop="42dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/elige_tu_cuenta"
+        />
+
+        <Spinner
+            android:id="@+id/spCuentas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cuenta"
+            android:layout_marginTop="42dp"
+        />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/spCuentas"
+        android:orientation="horizontal">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+        <RadioButton
+            android:id="@+id/rbPropia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spCuentas"
+            android:text="@string/cuenta_propia"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginStart="64dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rbAjena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/rbPropia"
+            app:layout_constraintTop_toBottomOf="@id/spCuentas"
+            android:text="@string/cuenta_ajena"
+            android:layout_marginTop="42dp"
+            android:layout_marginStart="16dp"
+            />
+    </RadioGroup>
+
+        <Spinner
+            android:id="@+id/opcion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            android:layout_marginTop="42dp"
+            android:visibility="invisible"
+            />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/opcion2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/radioGroup"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:helperText="Escribe el num. cuenta ajena"
+                android:visibility="invisible"
+                android:layout_marginTop="42dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+            />
+
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/cantidad"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etCantidad"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        app:layout_constraintStart_toEndOf="@id/cantidad"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <TextView
+        android:id="@+id/euros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/etCantidad"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/euricos"
+        />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/euros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="12dp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etCantidad"
+        android:layout_marginTop="42dp"
+        android:text="@string/enviar_justificante"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/enviar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/checkbox"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/enviar" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cancelar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkbox"
+        app:layout_constraintStart_toStartOf="@id/guideline"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/cancelar"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

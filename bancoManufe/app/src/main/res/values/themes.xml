@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BanconManufe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BanconManufe" parent="Base.Theme.BanconManufe" />
+
+
+    <style name="Theme.BanconManufe.TemaPropio">
+
+        <item name="colorPrimary">@color/lila </item>
+        <item name="fontFamily">@font/gatewayheaven</item>
+        <item name="android:windowBackground">@drawable/bc</item>
+        <item name="textInputStyle">@style/CustomTextInputLayout</item>
+    </style>
+
+
+    <style name="CustomTextInputLayout" parent="Widget.Material3.TextInputLayout.FilledBox">
+
+        <item name="boxBackgroundColor">@android:color/white</item>
+        <item name="helperTextTextColor">@color/lila</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+
+    <style name="CustomTextInputEditText" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <item name="android:background">@android:color/white</item>
+
+    </style>
+
+</resources>

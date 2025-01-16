@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">banco-ennama</string>
+    <string name="iniciar_sesion">Login</string>
+    <string name="introduce_tu_dni">Enter your ID</string>
+    <string name="introduce_tu_contrase_a">Enter your password</string>
+    <string name="introduce_tu_contrasena">enter your password</string>
+    <string name="entrar">Enter</string>
+    <string name="salir">Exit</string>
+    <string name="add_task">Add task</string>
+    <string name="bienvenido_a">Bienvenido/a</string>
+    <string name="bienvenido_a_mi_banco">welcome to my bank</string>
+    <string name="entrar2">ENTER</string>
+    <string name="posicion_global">GLOBAL POSITION</string>
+    <string name="transferencias">TRANSFERS</string>
+    <string name="cambiar_contrase_a">CHANGE PASSWORD</string>
+    <string name="movimientos">MOVEMENTS</string>
+    <string name="promociones">PROMOTIONS</string>
+    <string name="cajeros">CASHIER</string>
+    <string name="salir2">EXIT</string>
+    <string name="cambiar_la_contrase_a">Change password</string>
+    <string name="introduce_tu_nueva_contrase_a">Enter your new password</string>
+    <string name="vuelve_a_introducir_la_nueva_contrasena">Re-enter the new password</string>
+    <string name="aceptar">Accept</string>
+    <string name="elige_tu_cuenta">Choose your account:</string>
+    <string name="cuenta_propia">Own account</string>
+    <string name="cuenta_ajena">Third party account</string>
+    <string name="enviar_justificante">Send Proof</string>
+    <string name="enviar">Send</string>
+    <string name="cancelar">Cancel</string>
+    <string name="cantidad">Amount:</string>
+    <string name="euricos">€</string>
+    <string name="transferenciass">TRANSFERS</string>
+    <string name="hola">hello</string>
+    <string name="movimientoss">Movements</string>
+    <string name="selecciona_una_cuenta">Select an account:</string>
+    <string name="ultimos_movimientos">Last moves:</string>
+    <string name="lo_que_sea">whatever</string>
+    <string name="cuentas">Accounts:</string>
+    <string name="posicion_globall">GLOBAL POSITION</string>
+
+</resources>

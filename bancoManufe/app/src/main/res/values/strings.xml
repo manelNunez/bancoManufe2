@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">banco-ennama</string>
+    <string name="iniciar_sesion">Iniciar sesion</string>
+    <string name="introduce_tu_dni">introduce tu dni</string>
+    <string name="introduce_tu_contrase_a">Introduce_tu_contrase_a</string>
+    <string name="introduce_tu_contrasena">Introduce tu contrasena</string>
+    <string name="entrar">Entrar</string>
+    <string name="salir">Salir</string>
+    <string name="add_task">Add task</string>
+    <string name="bienvenido_a">Bienvenido/a</string>
+    <string name="bienvenido_a_mi_banco">Bienvenido/a a mi banco</string>
+    <string name="entrar2">ENTRAR</string>
+    <string name="posicion_global">POSICIÓN GLOBAL</string>
+    <string name="transferencias">TRANSFERENCIAS</string>
+    <string name="cambiar_contrase_a">CAMBIAR CONTRASEÑA</string>
+    <string name="movimientos">MOVIMIENTOS</string>
+    <string name="promociones">PROMOCIONES</string>
+    <string name="cajeros">CAJEROS</string>
+    <string name="salir2">SALIR</string>
+    <string name="cambiar_la_contrase_a">Cambiar la contraseña</string>
+    <string name="introduce_tu_nueva_contrase_a">Introduce tu nueva contraseña</string>
+    <string name="vuelve_a_introducir_la_nueva_contrasena">Vuelve a introducir la nueva contrasena</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="elige_tu_cuenta">Elige tu cuenta:</string>
+    <string name="cuenta_propia">Cuenta propia</string>
+    <string name="cuenta_ajena">Cuenta ajena</string>
+    <string name="enviar_justificante">Enviar Justificante</string>
+    <string name="enviar">Enviar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="euricos">€</string>
+    <string name="transferenciass">TRANSFERENCIAS</string>
+    <string name="hola">hola</string>
+    <string name="movimientoss">Movimientos</string>
+    <string name="selecciona_una_cuenta">Selecciona una cuenta:</string>
+    <string name="ultimos_movimientos">Ultimos movimientos:</string>
+    <string name="lo_que_sea">lo que sea</string>
+    <string name="cuentas">Cuentas:</string>
+    <string name="posicion_globall">POSICION GLOBAL</string>
+
+
+    <string-array name="cuentas">
+        <item>ES60-2100-0418-40-1234567891</item>
+        <item>ES70-3100-0785-30-2233445566</item>
+        <item>ES30-1100-0963-80-1987654321</item>
+        <item>ES10-9100-0111-10-9988776655</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="aceptarr" translatable="false">Aceptar</string>
+    <string name="a" translatable="false">a</string>
+    <string name="mi_banco" translatable="false">Mi banco</string>
+    <string name="contacto_gmail_com" translatable="false">contacto@gmail.com</string>
+    <string name="open_nav" translatable="false">open\n</string>
+    <string name="close_nav" translatable="false">close</string>
+    <string name="ajustes" translatable="false">Ajustes</string>
+    <string name="AJUSTES" translatable="false">AJUSTES</string>
+    <string name="atm">ATM</string>
+    <string name="atm_list">ATM List</string>
+    <string name="atm_add">ATM ADD</string>
+    <string name="atm_maps">ATM MAPS</string>
+    <string name="atm_1">ATM 1</string>
+    <string name="select_atm">Select ATM:</string>
+    <string name="txt_atm_list">ATM LIST</string>
+
+    <string-array name="language_options">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="data_source_options">
+        <item>Base de datos local</item>
+        <item>Servicio web</item>
+    </string-array>
+
+    <string-array name="data_source_values">
+        <item>local_database</item>
+        <item>web_service</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_global_position"
+            android:icon="@drawable/ic_posicion"
+            android:title="@string/posicion_global"/>
+
+        <item
+            android:id="@+id/nav_movements"
+            android:icon="@drawable/ic_movimientos"
+            android:title="@string/movimientos"/>
+
+        <item
+            android:id="@+id/nav_transfers"
+            android:icon="@drawable/ic_transferencias"
+            android:title="@string/transferencias"/>
+
+        <item
+            android:id="@+id/nav_change_password"
+            android:icon="@drawable/ic_cambiar_contrasena"
+            android:title="@string/cambiar_contrase_a"/>
+
+        <item
+            android:id="@+id/nav_promotions"
+            android:icon="@drawable/ic_promocion"
+            android:title="@string/promociones"/>
+
+        <item
+            android:id="@+id/nav_atms"
+            android:icon="@drawable/ic_cajeros"
+            android:title="@string/cajeros"/>
+
+        <item
+            android:id="@+id/nav_sett"
+            android:icon="@drawable/ic_ajustes"
+            android:title="@string/AJUSTES"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/flecha_atras"
+                android:title="@string/salir2"/>
+        </menu>
+    </item>
+</menu>
